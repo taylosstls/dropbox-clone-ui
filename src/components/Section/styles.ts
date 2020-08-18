@@ -119,6 +119,20 @@ export const ContentWrap = styled.div`
       max-width: var(--content-width);
     }
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    > .imageDiv {
+      max-width: 100%;
+    }
+
+    > .textDiv {
+      margin-top: 48px;
+      max-width: 480px;
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
 `;
 
 export const HeaderWrapper = styled.header`

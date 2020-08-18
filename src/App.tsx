@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <>
       <Section
         variant="blue"
-        dropname="Dropbox"
+        dropname={data[0].dropname}
         title={data[0].title}
         description={data[0].description}
       />

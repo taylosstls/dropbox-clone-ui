@@ -1,5 +1,6 @@
 export default [
   {
+    dropname: 'Dropbox',
     title: 'Concentre-se apenas no trabalho importante',
     description:
       'O Dropbox é o primeiro espaço de trabalho inteligente do mundo. Reunimos todo o conteúdo da sua equipe, e vocês podem usar as ferramentas que todos adoram. Além disso, ajudamos a diminuir a bagunça dos arquivos, realçando o que mais importa.',
