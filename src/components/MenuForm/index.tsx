@@ -33,7 +33,7 @@ const MenuForm: React.FC = () => {
         <input type="email" placeholder="E-mail" />
         <input type="password" placeholder="Senha" />
 
-        <button type="submit">Prosseguir</button>
+        <button type="submit">Registre-se</button>
 
         <span className="terms">
           Esta página está sujeita à Política de privade e aos Termos de

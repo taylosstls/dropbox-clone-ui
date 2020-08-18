@@ -55,13 +55,14 @@ export const Form = styled.form`
   justify-content: center;
   height: 100%;
 
-  padding: 0 32px;
+  padding-left: calc(1440px * (1 / 24));
+  padding-right: calc(1440px * (1 / 24));
   max-width: 480px;
   margin: 0 auto;
 
   > .title {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   > .subtitle {
@@ -80,7 +81,7 @@ export const Form = styled.form`
 
   > button {
     margin-top: 18px;
-    padding: 16px 24px;
+    padding: 12px 24px;
     font-size: 16px;
     background-color: var(--color-blue);
     color: var(--color-tertiary);

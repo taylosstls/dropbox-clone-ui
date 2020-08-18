@@ -6,11 +6,14 @@ import MenuForm from './components/MenuForm';
 
 import data from './data';
 
+import heroImage from './assets/home-hero-vflMv-jgR.jpg';
+
 const App: React.FC = () => {
   return (
     <>
       <Section
         variant="blue"
+        dropname="Dropbox"
         title={data[0].title}
         description={data[0].description}
       />
@@ -19,6 +22,7 @@ const App: React.FC = () => {
         variant="vanilla"
         title={data[1].title}
         description={data[1].description}
+        image={heroImage}
       />
 
       <Section
